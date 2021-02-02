@@ -1,0 +1,16 @@
+plugins {
+	id 'java'
+	id 'application'
+}
+
+application {
+	mainClassName = 'SimpleTest'
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	testImplementation 'junit:junit:4.13'
+}
